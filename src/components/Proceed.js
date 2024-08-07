@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../att-logo.png';
 // import '../App.css';
 
 function Proceed() {
@@ -20,6 +21,11 @@ function Proceed() {
         <Link to='/zipcode'>
           <button>National Visitors</button>
         </Link>
+        <br></br>
+        <br></br>
+        <img src={logo} className="logo" alt="Logo" />
+        <br></br>
+        <br></br>
       </div>
     );
   }

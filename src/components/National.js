@@ -21,13 +21,17 @@ function National(zip) {
       <div className="National">
         <h1>THE AT&T PERCH LIVING MURAL</h1>
         <p>From     To</p>
-        <h2> ATL .. </h2>
-        <p>Your zipcode is: {zipcode}</p>
-        <p>Your city is: {city} </p> 
+        <h4> ATL {">>"} {city} </h4>
+        <p>Your zipcode is: {zipcode}</p> 
         <br></br>
         <br></br>
         <br></br>
-        <br></br>    
+        <br></br>   
+        <br></br>
+        <br></br>
+        <img src={logo} className="logo" alt="Logo" />
+        <br></br>
+        <br></br>   
       </div>
     );
   }

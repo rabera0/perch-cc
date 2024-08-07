@@ -54,6 +54,11 @@ function Zipcode() {
           />
         </form>
         <br></br>
+        <br></br>
+        <br></br>
+        <img src={logo} className="logo" alt="Logo" />
+        <br></br>
+        <br></br>
       </div>
     );
   }
